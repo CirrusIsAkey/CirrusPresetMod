@@ -24,6 +24,7 @@ yourmod/sprites/
 Thats how sprites are structured
 Although take the [this block/unit goes in here] stuff with a grain of salt
 you can still put stuff like cores in walls, etc
+you can also make your own custom directories in sprites/
 
 plus you can make your own directories within stuff like turrets, environment, liquid, etc
 
