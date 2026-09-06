@@ -1,16 +1,16 @@
-# // // Asset Ordering // //
+// // Asset Ordering // //
 
-# Sprites:
+Sprites:
 yourmod/sprites
 
-# Sounds:
+Sounds:
 yourmod/sounds
 
-# Music:
+Music:
 yourmod/music
 
-# Content:
+Content:
 yourmod/Content
 
-# Bundles
+Bundles
 yourmod/Bundles
