@@ -4,7 +4,7 @@
 
 so this is how sprites are ordered:
 
-<YourMod>/sprites/
+yourmod/sprites/
               .../units/any(your directories!)
               .../effect/any(your directiories!)
               ...blocks/
