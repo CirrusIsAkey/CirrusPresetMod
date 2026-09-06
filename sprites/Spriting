@@ -8,17 +8,23 @@ so this is how sprites are ordered:
               .../units/any(your directories!)
               .../effect/any(your directiories!)
               ...blocks/
-                     ...distribution/
-                     ...production/
-                     ...walls/
-                     ...effect/
-                     ...storage/
-                     ...liquid/
-                     ...power/
-                     ...drills/
-                     ...turrets/
-                     ...units/
-                     ...logic/
+                     ...distribution/ <- ducts, conveyors, routers, junctions, rest of item distribution usually go in here
+                     ...production/ <- crafters, attribute crafters, heat crafters, etc usually go in here
+                     ...walls/ <- walls go in here
+                     ...effect(or defense)/ <- menders, overdrive projectors, build towers, regen projectors, force projectors, etc usually go in here
+                     ...storage/ <- cores and vaults usually go in here
+                     ...liquid/ <- conduits, liquid routers, liquid bridges, pumps, rest of liquid distribution usually go in here
+                     ...power/ <- power nodes, beam nodes, batteries, diodes, consume generators, impact reactors, and power producing blocks usually go in here
+                     ...drills/ <- wall drills, floor drills, cliff crushers, oil extractors usually go in here
+                     ...turrets/ <- power turrets, item turrets, point defense turrets, etc often go in here
+                     ...units/ <- Unit producing blocks go in here, stuff like unit factories, unit assemblies, reconstructors, repair points, repair fields
+                     ...logic/ <- Logic processors, messages, and memory cells go in here
+                     ...environment/any(your directories!) <- Environmental blocks go here, and only in here, the game doesnt load them(if im not mistaken)
             
 Thats how sprites are structured
+Although take the [this block/unit goes in here] stuff with a grain of salt
+you can still put stuff like cores in walls, etc
+
+plus you can make your own directories within stuff like turrets, environment, liquid, etc
+
 (although do correct me if i am wrong!)
