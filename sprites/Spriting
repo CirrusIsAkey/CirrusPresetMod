@@ -5,6 +5,8 @@
 so this is how sprites are ordered:
 
 yourmod/sprites/
+              .../items/any(your directories!) <- Items go in here
+              .../liquids/any(your directories!) <- and Liquids go in here
               .../units/any(your directories!)
               .../effect/any(your directiories!)
               ...blocks/
