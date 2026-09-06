@@ -1,0 +1,26 @@
+// This is your mod's internal name, sprites etc use it
+name: presetmod
+// example, mine is presetmod, so in the code my sprites would be presetmod-sprite not sprite directly
+  
+// this is the "external name" / the name displayed in the browser, etc
+displayName: Cirrus Preset Mod
+
+// this is the author
+author: CirrusIsAkey
+
+// this is the description that is displayed in the browser
+description: '''
+An HJSON mod that focuses on documenting stuff from the game and provides examples
+and has some other stuff
+Hope you have enjoy modding!
+'''
+
+// this is the subtitle, when in the Mods tab (No not the browser!) its displayed underneath the displayName of the mod
+subtitle: Have fun!
+
+// this is the version displayed above the description
+version: 0.0.1
+
+// this is the min game version used to run the mod
+minGameVersion: 159.7
+// example this was 158, mod would need version 158 to run  
